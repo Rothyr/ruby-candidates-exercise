@@ -36,3 +36,7 @@ end
 def age?(candidate)
   candidate[:age] > 17
 end
+
+def sorted_by_experience
+  @candidates.sort_by { |candidate| [ -candidate[:years_of_experience], -candidate[:github_points] ] }
+end
