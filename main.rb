@@ -9,4 +9,11 @@ require './filters'
 
 # binding.pry
 
-pp @candidates
+puts qualified_candidates
+
+
+# puts experienced? ({:id=>15,
+#     :years_of_experience=>10,
+#     :github_points=>400,
+#     :languages=>["JavaScript", "Ruby"],
+#     :age=>16})
